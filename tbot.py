@@ -111,10 +111,6 @@ def main():
     _L.info("\n\n\nRun initiated")
     _L.info('Max workers allowed: ' + str(gvars.MAX_WORKERS))
 
-    # Create environment variables with keys
-    os.environ['APCA-API-KEY-ID'] = gvars.API_KEY
-    os.environ['APCA-API-SECRET-KEY'] = gvars.API_SECRET_KEY
-
     # initialize the API with Alpaca
     api = tradeapi.REST(gvars.API_KEY, gvars.API_SECRET_KEY, gvars.ALPACA_API_URL, api_version='v2')
 
