@@ -16,7 +16,7 @@ operEquity = 10000 # defines the target amount per execution ($)
 limitOrderMargin = 0.1 # percentage that defines the offset for the limit orders
 
 # YOUR API KEYS AT ALPACA GO HERE!
-API_KEY = "PKV1GOOCETOLNTSTND0"
+API_KEY = "PKV1GOOCETOLNTSTND0O"
 API_SECRET_KEY = "ABBT2VlgUjR05l48n9QSqsSgcnzunfEWMDEIpS9Z"
 ALPACA_API_URL = "https://paper-api.alpaca.markets"
 
