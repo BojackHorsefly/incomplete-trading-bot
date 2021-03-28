@@ -23,7 +23,7 @@ class AssetHandler:
 
         try:
             self.rawAssets = set(pd.read_csv(gvars.RAW_ASSETS))
-            print("Raw assets loaded from csv correclty")
+            print("Raw assets loaded from csv correctlty")
         except Exception as e:
             print("Could not load raw assets!")
             print(e)
