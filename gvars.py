@@ -21,7 +21,7 @@ API_SECRET_KEY = "7P59ZFNfhzF2iA7vTjBeeqb03lMpsD7doLNAVZuM"
 ALPACA_API_URL = "https://paper-api.alpaca.markets"
 
 # this block checks whether you have your keys written or not
-if API_KEY == "" or API_SECRET_KEY == "":
+if API_KEY is "" or API_SECRET_KEY is "":
     print('\n\n##### \n\nPlease get an API key at the Alpaca website! \n\n##### \n\n')
     raise ValueError
 
