@@ -114,6 +114,10 @@ def main():
     # initialize the API with Alpaca
     api = tradeapi.REST(gvars.API_KEY, gvars.API_SECRET_KEY, gvars.ALPACA_API_URL, api_version='v2')
 
+    # Check if the market is open now.
+    clock = api.get_clock()
+    print('The market is {}'.format('open.' if clock.is_open else 'closed.'))
+
     # initialize the asset handler
     assHand = AssetHandler()
 
